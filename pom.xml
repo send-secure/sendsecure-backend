@@ -28,7 +28,12 @@
             </roles>
         </developer>
     </developers>
-
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/DaniloMurer/jada_lib</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
